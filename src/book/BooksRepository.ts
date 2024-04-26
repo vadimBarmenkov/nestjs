@@ -1,6 +1,6 @@
-import {Book} from "./Book";
+import {BookInterface} from "./interfaces/book.interface";
 
-type book = Book;
+type book = BookInterface;
 
 export abstract class BooksRepository{
 
